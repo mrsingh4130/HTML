@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Student Registration Form</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Student Registration Form</legend>
+
+        <table cellpadding="5" cellspacing="5">
+            <tr>
+                <td>First name:</td>
+                <td> <input type="text" placeholder="Enter your Firstname"></td>
+            </tr>
+            <tr>
+                <td>Last name:</td>
+                <td> <input type="text" placeholder="Enter your Lastname"></td>
+            </tr>
+            <tr>
+                <td>Father's name:</td>
+                <td> <input type="text" placeholder="Enter your Father's name"></td>
+            </tr>
+            <tr>
+                <td>Mother's name:</td>
+                <td> <input type="text" placeholder="Enter your Mother's name"></td>
+            </tr>
+            <tr>
+                <td>Date of Birth:</td>
+                <td> <input type="date"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td> <input type="email" placeholder="Enter your Email"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td> <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                    <input type="radio" name="gender" id=""> Other
+                </td>
+            </tr>
+            </tr>
+            <tr>
+                <td>Choose Course</td>
+                <td>
+                    <select name="Course" id="">
+                        <option value="">---Select---</option>
+                        <option value=""> HTML</option>
+                        <option value=""> PHP</option>
+                        <option value=""> JAVA</option>
+                        <option value="">ASP</option>
+                        <option value="">PYTHON</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies:</td>
+                <td><input type="checkbox" name="hobbies" id=""> Singing
+                    <input type="checkbox" name="dancing" id=""> Dancing
+                    <input type="checkbox" name="playing" id=""> Playing Cricket
+                    <input type="checkbox" name="reading" id=""> Reading Books
+                </td>
+
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td> <textarea name="address" id=""></textarea></td>
+            </tr>
+            <tr>
+                <td>Upload Photo:</td>
+                <td> <input type="file" name="Photo"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="submit" name="submit"></td>
+            </tr>
+        </table>
+
+    </fieldset>
+
+</body>
+
+</html>
